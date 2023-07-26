@@ -1,0 +1,43 @@
+.title {
+    margin: 40px 0 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.subtitle {
+    margin: 10px 0 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.image_container {
+    text-align: center;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    color: #0d3379;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(17, 72, 154, 0.62);
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #3d3a3a;
+    border: 2px solid white;
+}
+
+.button:active {
+    color: #fff;
+    background-color: #625b5b;
+    border-color: rgba(255, 255, 255, 0.62);
+}

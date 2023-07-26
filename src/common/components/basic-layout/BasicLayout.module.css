@@ -1,0 +1,18 @@
+.wrapper {
+    max-width: 1200px;
+    min-height: 90vh;
+    margin: 0 auto;
+}
+
+.line {
+    position: absolute;
+    top: 80px;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(124, 122, 118, 0.18);
+}
+
+.container {
+    min-height: 90vh;
+    margin: 20px 40px;
+}

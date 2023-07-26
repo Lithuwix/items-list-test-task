@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.buttons_container {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    border-radius: 3px;
+    padding: 10px 25px;
+}
+
+.export_btn {
+    border: 2px solid #424242;
+}
+
+.create_btn {
+    color: white;
+    background-color: #424242;
+}

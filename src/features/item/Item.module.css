@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+.button {
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 5px 25px;
+    border: 2px solid #1f1f1f;
+}
