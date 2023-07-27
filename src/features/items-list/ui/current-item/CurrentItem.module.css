@@ -5,7 +5,12 @@
     padding: 30px;
     display: flex;
     gap: 40px;
-    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
 }
 
 .picture {
