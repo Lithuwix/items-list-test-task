@@ -40,6 +40,17 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: inherit;
 }
 
+a {
+  color: black;
+}
+
+a.text:active,
+a.text:hover,
+a.text {
+  text-decoration: none;
+  color: black;
+}
+
 ul, ul li {
   list-style: none;
 }

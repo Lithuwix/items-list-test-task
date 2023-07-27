@@ -12,9 +12,11 @@
 .buttons_container {
     display: flex;
     gap: 20px;
+    margin-bottom: 30px;
 }
 
 .button {
+    text-transform: uppercase;
     border-radius: 3px;
     padding: 10px 25px;
 }
@@ -26,4 +28,9 @@
 .create_btn {
     color: white;
     background-color: #424242;
+    transition: all 0.3s ease;
+}
+
+.create_btn:hover {
+    background-color: #959595;
 }

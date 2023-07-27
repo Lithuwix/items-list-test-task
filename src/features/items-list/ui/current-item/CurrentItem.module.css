@@ -1,0 +1,83 @@
+.wrapper {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.picture {
+    aspect-ratio: 1/1;
+    height: 110px;
+    width: 110px;
+    background-color: #F0F0F0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_container {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.title:hover {
+    color: gray;
+}
+
+.description {
+    height: 200px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.4em;
+    max-height: calc(1.45em * 3);
+}
+
+/*.description::after {*/
+/*    content: '...';*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    background-color: white;*/
+/*    padding: 0 5px;*/
+/*}*/
+
+.id {
+    min-width: 80px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #424242;
+    color: white;
+    font-size: 13px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #959595;
+}

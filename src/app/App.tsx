@@ -7,7 +7,7 @@ import {BasicLayout} from "../common/components/basic-layout/BasicLayout";
 
 import Header from '../common/components/header/Header';
 import {PageNotFound} from "../common/components/page-not-found/PageNotFound";
-import {ItemsList} from "../features/items-list/items-list";
+import {ItemsList} from "../features/items-list/Items-list";
 import { Item } from '../features/item/Item';
 
 const App = () => {
